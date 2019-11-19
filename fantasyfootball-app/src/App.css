@@ -1,3 +1,13 @@
+div{
+  background-image: 'https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F633428130%2F960x0.jpg%3Ffit%3Dscale';
+}
+header{
+  color: #F0AC11;
+  font-size: 40px;
+  font-family: 'Rancho', cursive;
+  display: flex;
+  justify-content: center;
+}
 img {
   width: auto;
   height: 100px;
@@ -30,17 +40,14 @@ flex-flow: row wrap;
   padding: 1vw
 }
 
-nav {
-  background-color: #6b6b6b;
-  color: #F0AC11;
-  height: 100px;
-}
+
 
 nav a {
   color: #F0AC11;
   font-size: 20px;
   font-family: 'Rancho', cursive;
-  margin: 0;
+  display: flex;
+  justify-content: center;
 }
 nav a div {
   margin: 0
@@ -58,10 +65,9 @@ form {
   
 }
 
-.beerTitle {
-  background-color: #006790;
+.Title {
   border-radius: 3px;
-  color: #F0AC11;
+  color: black;
 margin: 0 auto;
 padding: 10px;
 text-align: center;
@@ -72,8 +78,8 @@ text-align: center;
 
 .random {
   text-align: center;
-  background-color: #006790;
-  color: #F0AC11;
+
+  color: black;
   border-radius: 50%;
   padding: auto;
   margin-left: 30%;
@@ -91,12 +97,12 @@ word-wrap: break-word;
   font-size: 32px;
   font-style: italic;
   float: left;
-  color: #F0AC11;
+  color: black;
   margin-left: 20px;
   font-family: 'Rancho', cursive;
 }
 button {
-  background-color: #F0AC11;
+  background-color: black;
   border-style: none;
   text-align: center;
   padding: 6px;
@@ -105,8 +111,8 @@ button {
 }
 
 .right {
-  background-color: #006790;
-  color: #F0AC11;
+
+  color: black;
   font-style: oblique;
   font-weight: bolder;
 }

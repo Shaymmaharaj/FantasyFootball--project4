@@ -14,7 +14,7 @@ class RandomTeamStats extends Component {
         }).then(res => {
             console.log(res)
            this.setState({
-            random: res
+            random: res[0]
            }) 
         })
         .catch(err => console.error(err))
@@ -22,7 +22,15 @@ class RandomTeamStats extends Component {
     render() { 
         return ( 
             <div className="random">
-                {console.log(this.state.random)}
+                <div>{this.state.random.ShortName}</div> 
+                <div>{this.state.random.Team}</div>
+                <div>{this.state.random.Stadium}</div>
+                <div>SoloTackles:{this.state.random.SoloTackles}</div>
+                <div>{this.state.random.FantasyPostition}</div>
+                <div>{this.state.random.opponent}</div>
+                <div>targets:{this.state.random.ReceivingTargets}</div>
+                <div>OffensiveSnapsPlayed:{this.state.random.OffensiveTeamSnaps}</div>
+                <div>touchdowns:{this.state.random.OffensiveTouchdowns}</div>
             </div>
          )
     }

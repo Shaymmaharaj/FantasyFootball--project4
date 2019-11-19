@@ -5,6 +5,7 @@ import './App.css';
 import Schedule from './schedule';
 import player from './player'
 import RandomTeamStats from './RandomStats'
+import styled from 'styled-components'
 
 class App extends Component{
   constructor(props) {
@@ -17,8 +18,15 @@ class App extends Component{
     window.localStorage.clear();
   };
   render(){
+    const background = styled.header`
+    color: #F0AC11;
+    font-size: 20px;
+    font-family: 'Rancho', cursive;
+    margin: 0;
+    `;
     return (
       <div>
+        <header>Fantasy Football Stats</header>
       <div>
         <nav>
           <Link to='/'>
@@ -52,15 +60,6 @@ class App extends Component{
           
           <Route exact path='/player/stats' component={player} />
           <Route exact path='/random/stats' component={RandomTeamStats} />
-          {/* <Route exact path="/show/posts/:uid?" component={Posts}/>
-          <Route exact path="/newpost" component={New}/>
-          <Route path="/showpost/:id" render={routerProps => <Showpost {...routerProps}/>}/>
-          <Route exact path='/edit/:id' component={Showpost} />
-          <Route exact path='/yeetrandom' component={Random} />
-          <Route exact path='/newuser' component={NewUser} />
-          <Route exact path="/category/:category" component={Category}/>
-          <div className="userProfile">
-          <Route path='/show/users' component={User} /></div> */}
         </Switch>
       </main>
     </div>
