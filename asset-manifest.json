@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fantasy-football/static/css/main.1a09cf9c.chunk.css",
+    "main.js": "/fantasy-football/static/js/main.ff91b6f4.chunk.js",
+    "main.js.map": "/fantasy-football/static/js/main.ff91b6f4.chunk.js.map",
+    "runtime-main.js": "/fantasy-football/static/js/runtime-main.a532c1bd.js",
+    "runtime-main.js.map": "/fantasy-football/static/js/runtime-main.a532c1bd.js.map",
+    "static/js/2.0125d91d.chunk.js": "/fantasy-football/static/js/2.0125d91d.chunk.js",
+    "static/js/2.0125d91d.chunk.js.map": "/fantasy-football/static/js/2.0125d91d.chunk.js.map",
+    "index.html": "/fantasy-football/index.html",
+    "precache-manifest.1bc8e1250e8c32432293ff8188ea5b2a.js": "/fantasy-football/precache-manifest.1bc8e1250e8c32432293ff8188ea5b2a.js",
+    "service-worker.js": "/fantasy-football/service-worker.js",
+    "static/css/main.1a09cf9c.chunk.css.map": "/fantasy-football/static/css/main.1a09cf9c.chunk.css.map",
+    "static/media/logo.svg": "/fantasy-football/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a532c1bd.js",
+    "static/js/2.0125d91d.chunk.js",
+    "static/css/main.1a09cf9c.chunk.css",
+    "static/js/main.ff91b6f4.chunk.js"
+  ]
+}
